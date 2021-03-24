@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="container-fluid top">
+        <div class="container ">
+            <div class="container header text-center">
+                <h4 class="tit">Details Form</h4>
+            </div>
+            <div class="container f1 ">
+                <form id="userinfo">
+                    <div class="row d-flex pl-5 mb-2">
+                        <div class="col-2 text-right">
+                            <label for="name">Name:</label>
+                        </div>
+                        <div class="col-6">
+                            <input type="text" id="name" name="name" placeholder="Enter Name" minlength="3">
+                        </div>
+                    </div>
+                    <div class="row d-flex pl-5 mb-2">
+                        <div class="col-2 text-right">
+                            <label >Mob. No:</label>
+                        </div>
+                        <div class="col-6">
+                            <input type="text" id="mob" name="mob" placeholder="Enter Mob. No">
+                        </div>
+                    </div>
+                    <div class="row d-flex pl-5 mb-2">
+                        <div class="col-2 text-right">
+                            <label ">Email ID:</label>
+                        </div>
+                        <div class="col-6 ">
+                            <input type="text" id="mail" name="mail" placeholder="Enter email">
+                        </div>
+                    </div>
+
+                    <div class="row d-flex pl-5 mb-2">
+                        <div class="col-2 text-right">
+                        </div>
+                        <div class="col-6">
+                        <input class="button" type="button" value="SUBMIT" onclick="display()">
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid bot">
+        <div class="container">
+        <div id="disout">
+            <table id="list" cellspacing= "0px" cellpadding="20px">
+                <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Mobile no</th>
+                    <th>Email ID</th>
+                </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

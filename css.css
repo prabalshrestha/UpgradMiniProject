@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ccccff;
+    font-family: Calibri;
+}
+.top{
+    border-bottom: solid;
+}
+.header{
+    margin: 2% 0%;
+}
+.tit{
+    width: 40%;
+    margin: auto;
+    border-bottom: solid;
+}
+.f1{
+    padding: 2%;
+}
+#userinfo{
+    margin-left: 15%;
+}
+input{
+    width: 100%;
+}
+.button{
+    width: 40%;
+    padding: 1% 2% 1% 2%;
+    background-color: #ffb76f;
+    border: solid 1px;
+    font-weight: bold;
+}
+#disout{
+    display: none;
+}
+
+
+ /*Table*/
+#list{
+    width: 100%;
+}
